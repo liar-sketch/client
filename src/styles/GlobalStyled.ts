@@ -24,8 +24,10 @@ const GlobalStyles = createGlobalStyle`
 		}
     }
 	body {
-		background-color: var(--color-primary);
+		width: 1280px;		
+		margin: 0 auto;
 		font-family: 'Goyang';
+		background-color: var(--color-primary);
 	}
 	h1{
 		font-weight: 600;
@@ -43,7 +45,7 @@ const GlobalStyles = createGlobalStyle`
    
 	/*****************************************************/
 	:root {
-		--color-primary: #E2F1FF;
+		--color-primary: #c1e0fd;
 		--color-black: #000;
 		--color-white: #fff;
 
